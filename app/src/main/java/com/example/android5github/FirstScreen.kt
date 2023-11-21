@@ -14,7 +14,13 @@ import com.example.android5github.ui.theme.Android5GitHubTheme
 @Composable
 fun FirstScreen(modifier: Modifier = Modifier) {
     Box(modifier = modifier) {
+        Text(text = "First text")
 
+        Button(onClick = {
+        }) {
+
+
+        }
     }
 }
 
